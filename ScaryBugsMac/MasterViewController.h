@@ -1,5 +1,5 @@
 //
-//  main.m
+//  MasterViewController.h
 //  ScaryBugsMac
 //
 //  Created by Jonathan Carnie on 28/08/12.
@@ -8,9 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[])
-{
-    NSLog(@"In main..");
-    return NSApplicationMain(argc, (const char **)argv);
-    
-}
+@interface MasterViewController : NSViewController
+
+@end
