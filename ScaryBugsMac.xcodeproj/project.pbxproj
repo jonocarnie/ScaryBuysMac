@@ -13,6 +13,8 @@
 		E327B88D15EC883C00F19260 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E327B88B15EC883C00F19260 /* Credits.rtf */; };
 		E327B89015EC883C00F19260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E327B88F15EC883C00F19260 /* AppDelegate.m */; };
 		E327B89315EC883C00F19260 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E327B89115EC883C00F19260 /* MainMenu.xib */; };
+		E327B89C15EC89E000F19260 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E327B89A15EC89E000F19260 /* MasterViewController.m */; };
+		E327B89D15EC89E000F19260 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E327B89B15EC89E000F19260 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		E327B88E15EC883C00F19260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E327B88F15EC883C00F19260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E327B89215EC883C00F19260 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E327B89915EC89E000F19260 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E327B89A15EC89E000F19260 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E327B89B15EC89E000F19260 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				E327B88F15EC883C00F19260 /* AppDelegate.m */,
 				E327B89115EC883C00F19260 /* MainMenu.xib */,
 				E327B88315EC883C00F19260 /* Supporting Files */,
+				E327B89915EC89E000F19260 /* MasterViewController.h */,
+				E327B89A15EC89E000F19260 /* MasterViewController.m */,
+				E327B89B15EC89E000F19260 /* MasterViewController.xib */,
 			);
 			path = ScaryBugsMac;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 				E327B88715EC883C00F19260 /* InfoPlist.strings in Resources */,
 				E327B88D15EC883C00F19260 /* Credits.rtf in Resources */,
 				E327B89315EC883C00F19260 /* MainMenu.xib in Resources */,
+				E327B89D15EC89E000F19260 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				E327B88915EC883C00F19260 /* main.m in Sources */,
 				E327B89015EC883C00F19260 /* AppDelegate.m in Sources */,
+				E327B89C15EC89E000F19260 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
