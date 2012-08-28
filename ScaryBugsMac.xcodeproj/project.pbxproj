@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E327B87D15EC883C00F19260 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E327B87C15EC883C00F19260 /* Cocoa.framework */; };
+		E327B88715EC883C00F19260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E327B88515EC883C00F19260 /* InfoPlist.strings */; };
+		E327B88915EC883C00F19260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E327B88815EC883C00F19260 /* main.m */; };
+		E327B88D15EC883C00F19260 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E327B88B15EC883C00F19260 /* Credits.rtf */; };
+		E327B89015EC883C00F19260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E327B88F15EC883C00F19260 /* AppDelegate.m */; };
+		E327B89315EC883C00F19260 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E327B89115EC883C00F19260 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E327B87815EC883C00F19260 /* ScaryBugsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E327B87C15EC883C00F19260 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E327B87F15EC883C00F19260 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E327B88015EC883C00F19260 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E327B88115EC883C00F19260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E327B88415EC883C00F19260 /* ScaryBugsMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsMac-Info.plist"; sourceTree = "<group>"; };
+		E327B88615EC883C00F19260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E327B88815EC883C00F19260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E327B88A15EC883C00F19260 /* ScaryBugsMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugsMac-Prefix.pch"; sourceTree = "<group>"; };
+		E327B88C15EC883C00F19260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E327B88E15EC883C00F19260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E327B88F15EC883C00F19260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E327B89215EC883C00F19260 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E327B87515EC883C00F19260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E327B87D15EC883C00F19260 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E327B86D15EC883C00F19260 = {
+			isa = PBXGroup;
+			children = (
+				E327B88215EC883C00F19260 /* ScaryBugsMac */,
+				E327B87B15EC883C00F19260 /* Frameworks */,
+				E327B87915EC883C00F19260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E327B87915EC883C00F19260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E327B87815EC883C00F19260 /* ScaryBugsMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E327B87B15EC883C00F19260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E327B87C15EC883C00F19260 /* Cocoa.framework */,
+				E327B87E15EC883C00F19260 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E327B87E15EC883C00F19260 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E327B87F15EC883C00F19260 /* AppKit.framework */,
+				E327B88015EC883C00F19260 /* CoreData.framework */,
+				E327B88115EC883C00F19260 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E327B88215EC883C00F19260 /* ScaryBugsMac */ = {
+			isa = PBXGroup;
+			children = (
+				E327B88E15EC883C00F19260 /* AppDelegate.h */,
+				E327B88F15EC883C00F19260 /* AppDelegate.m */,
+				E327B89115EC883C00F19260 /* MainMenu.xib */,
+				E327B88315EC883C00F19260 /* Supporting Files */,
+			);
+			path = ScaryBugsMac;
+			sourceTree = "<group>";
+		};
+		E327B88315EC883C00F19260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E327B88415EC883C00F19260 /* ScaryBugsMac-Info.plist */,
+				E327B88515EC883C00F19260 /* InfoPlist.strings */,
+				E327B88815EC883C00F19260 /* main.m */,
+				E327B88A15EC883C00F19260 /* ScaryBugsMac-Prefix.pch */,
+				E327B88B15EC883C00F19260 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E327B87715EC883C00F19260 /* ScaryBugsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E327B89615EC883C00F19260 /* Build configuration list for PBXNativeTarget "ScaryBugsMac" */;
+			buildPhases = (
+				E327B87415EC883C00F19260 /* Sources */,
+				E327B87515EC883C00F19260 /* Frameworks */,
+				E327B87615EC883C00F19260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryBugsMac;
+			productName = ScaryBugsMac;
+			productReference = E327B87815EC883C00F19260 /* ScaryBugsMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E327B86F15EC883C00F19260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jonathan Carnie";
+			};
+			buildConfigurationList = E327B87215EC883C00F19260 /* Build configuration list for PBXProject "ScaryBugsMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E327B86D15EC883C00F19260;
+			productRefGroup = E327B87915EC883C00F19260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E327B87715EC883C00F19260 /* ScaryBugsMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E327B87615EC883C00F19260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E327B88715EC883C00F19260 /* InfoPlist.strings in Resources */,
+				E327B88D15EC883C00F19260 /* Credits.rtf in Resources */,
+				E327B89315EC883C00F19260 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E327B87415EC883C00F19260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E327B88915EC883C00F19260 /* main.m in Sources */,
+				E327B89015EC883C00F19260 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E327B88515EC883C00F19260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E327B88615EC883C00F19260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E327B88B15EC883C00F19260 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E327B88C15EC883C00F19260 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E327B89115EC883C00F19260 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E327B89215EC883C00F19260 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E327B89415EC883C00F19260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E327B89515EC883C00F19260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E327B89715EC883C00F19260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugsMac/ScaryBugsMac-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsMac/ScaryBugsMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E327B89815EC883C00F19260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugsMac/ScaryBugsMac-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsMac/ScaryBugsMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E327B87215EC883C00F19260 /* Build configuration list for PBXProject "ScaryBugsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E327B89415EC883C00F19260 /* Debug */,
+				E327B89515EC883C00F19260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E327B89615EC883C00F19260 /* Build configuration list for PBXNativeTarget "ScaryBugsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E327B89715EC883C00F19260 /* Debug */,
+				E327B89815EC883C00F19260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E327B86F15EC883C00F19260 /* Project object */;
+}
